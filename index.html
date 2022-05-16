@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <form action="action.js">
+            <fieldset>
+
+                <legend>Contact Form</legend>
+
+                <label for="fname">       Full Name*
+                </label><br>
+                <input type="text" name="fname" placeholder="Enter your first name"><br><br>
+                <label for="email">Email: </label><br>
+                <input type="email" name="email" placeholder="Enter your Email"><br><br>
+                <label for="pnum">Phone No</h4></label><br>
+                <input type="email" name="pnum"><br><br>
+                <label for="pswd"> Password: </label><br>
+                <input type="password" name="pswd"><br><br>
+                <label for="cpswd"> Confirm Psd: </h4></label><br>
+                <input type="password" name="cpswd"><br><br>
+                <label for="rb1">
+                    Gender* <br>                   <input type="radio" value="Male" name="gender" id="rb1">Male
+                </label>
+                <label for="rb2">
+                    <input type="radio" value="Female" name="gender" id="rb2">Female
+                </label>
+                <label for="rb3">
+                    <input type="radio" value="other" name="gender" id="rb3">Other
+                </label><br><br>
+
+
+                <label for="language"><h4>Languages known</h4> </label><br><br>
+                <label for="id4">
+                    <input type="checkbox" name="english" id="id4">English
+                </label>
+                <label for="id5">
+                    <input type="checkbox" name="hindi" id="id5">Hindi
+                </label>
+                <label for="id6">
+                    <input type="checkbox" name="marathi" id="id6">Marathi
+                </label><br><br>
+                <label for="players"> Select your city</h4></label><br><br>
+                <select name="city" id="city">
+                    <option value="mumbai">Mumbai</option>
+                    <option value="pune">Pune</option>
+                    <option value="banglore">Banglore</option>
+                    <option value="hyderabad">Hyderabad</option>
+                    <option value="gurugram">Gurugram</option>
+                </select><br><br>
+                <label for="state"> Choose your state: </h4></label><br><br>
+                <input list="browsers" name="state" id="state">
+                <datalist id="browsers">
+                    <option value="Maharashtra">
+                    <option value="Karnataka">
+                    <option value="Delhi">
+                    <option value="Punjab">
+                    <option value="Telangana">
+                </datalist><br> <br>
+                <label for="add"> Address:  </label><br><br>
+                <textarea name="add" id="add" cols="30" rows="3"></textarea><br><br>
+                <input type="submit" value="Submit">
+
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
